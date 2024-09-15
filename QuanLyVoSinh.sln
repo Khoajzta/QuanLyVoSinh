@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyVoSinhGUI", "QuanLyVoSinhGUI\QuanLyVoSinhGUI.csproj", "{B59761C9-D0DB-44DE-8D04-5E3DBAE6014F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyVoSinhBUS", "QuanLyVoSinhBUS\QuanLyVoSinhBUS.csproj", "{110C59F7-FE15-4344-93E1-E57133427080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyVoSinhDAO", "QuanLyVoSinhDAO\QuanLyVoSinhDAO.csproj", "{C4B616A8-31F8-4EBE-A02D-BFACE79FA78E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyVoSinhDTO", "QuanLyVoSinhDTO\QuanLyVoSinhDTO.csproj", "{98840251-A783-43B9-A5E3-327DAC41237F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupQuanLyVoSinh", "SetupQuanLyVoSinh\SetupQuanLyVoSinh.vdproj", "{1F327389-D991-4B19-AF8A-9DDEB28C5A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B59761C9-D0DB-44DE-8D04-5E3DBAE6014F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59761C9-D0DB-44DE-8D04-5E3DBAE6014F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59761C9-D0DB-44DE-8D04-5E3DBAE6014F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59761C9-D0DB-44DE-8D04-5E3DBAE6014F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110C59F7-FE15-4344-93E1-E57133427080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110C59F7-FE15-4344-93E1-E57133427080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110C59F7-FE15-4344-93E1-E57133427080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110C59F7-FE15-4344-93E1-E57133427080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B616A8-31F8-4EBE-A02D-BFACE79FA78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B616A8-31F8-4EBE-A02D-BFACE79FA78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B616A8-31F8-4EBE-A02D-BFACE79FA78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B616A8-31F8-4EBE-A02D-BFACE79FA78E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98840251-A783-43B9-A5E3-327DAC41237F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98840251-A783-43B9-A5E3-327DAC41237F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98840251-A783-43B9-A5E3-327DAC41237F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98840251-A783-43B9-A5E3-327DAC41237F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F327389-D991-4B19-AF8A-9DDEB28C5A9C}.Debug|Any CPU.ActiveCfg = Debug
+		{1F327389-D991-4B19-AF8A-9DDEB28C5A9C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F278E9-74FB-4C20-B2D2-54C95DFBECEE}
+	EndGlobalSection
+EndGlobal
