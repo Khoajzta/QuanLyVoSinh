@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation4 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_main));
             this.pnl_Nav = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -185,22 +185,22 @@
             // 
             this.tr.AnimationType = Guna.UI2.AnimatorNS.AnimationType.HorizSlide;
             this.tr.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.tr.DefaultAnimation = animation1;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.tr.DefaultAnimation = animation4;
             this.tr.MaxAnimationTime = 50000;
             this.tr.TimeStep = 0.035F;
             // 
@@ -281,7 +281,7 @@
             this.btn_Bu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_Bu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(173)))));
             this.btn_Bu.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Bu.ForeColor = System.Drawing.Color.White;
+            this.btn_Bu.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Bu.Image = global::QuanLyVoSinhGUI.Properties.Resources.muiten_khong_chan_pahi_removebg_preview__1_;
             this.btn_Bu.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_Bu.ImageOffset = new System.Drawing.Point(-3, 0);
@@ -302,7 +302,7 @@
             this.btn_Thu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btn_Thu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(173)))));
             this.btn_Thu.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Thu.ForeColor = System.Drawing.Color.White;
+            this.btn_Thu.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Thu.Image = global::QuanLyVoSinhGUI.Properties.Resources.muiten_khong_chan_removebg_preview;
             this.btn_Thu.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_Thu.ImageOffset = new System.Drawing.Point(-7, 0);
@@ -347,7 +347,7 @@
             this.btn_DangXuat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_DangXuat.ImageOffset = new System.Drawing.Point(-6, 0);
             this.btn_DangXuat.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_DangXuat.Location = new System.Drawing.Point(2, 800);
+            this.btn_DangXuat.Location = new System.Drawing.Point(2, 798);
             this.btn_DangXuat.Name = "btn_DangXuat";
             this.btn_DangXuat.Size = new System.Drawing.Size(392, 69);
             this.btn_DangXuat.TabIndex = 9;
@@ -381,7 +381,7 @@
             this.btn_Admin.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_Admin.ImageOffset = new System.Drawing.Point(2, 0);
             this.btn_Admin.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_Admin.Location = new System.Drawing.Point(2, 650);
+            this.btn_Admin.Location = new System.Drawing.Point(2, 657);
             this.btn_Admin.Name = "btn_Admin";
             this.btn_Admin.Size = new System.Drawing.Size(392, 69);
             this.btn_Admin.TabIndex = 10;
@@ -446,7 +446,7 @@
             this.btn_CheckThongTin.Image = global::QuanLyVoSinhGUI.Properties.Resources.Circle_icons_check_svg;
             this.btn_CheckThongTin.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_CheckThongTin.ImageSize = new System.Drawing.Size(35, 35);
-            this.btn_CheckThongTin.Location = new System.Drawing.Point(2, 725);
+            this.btn_CheckThongTin.Location = new System.Drawing.Point(2, 727);
             this.btn_CheckThongTin.Name = "btn_CheckThongTin";
             this.btn_CheckThongTin.Size = new System.Drawing.Size(392, 69);
             this.btn_CheckThongTin.TabIndex = 11;
